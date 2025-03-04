@@ -1,0 +1,106 @@
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.7) url(grocery1.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    font-size: 2em;
+
+}
+
+.left {
+    color: cadetblue;
+
+}
+
+
+
+.mid {
+    display: block;
+    width: 54%;
+    margin: 9px auto;
+}
+
+.mid a {
+    width: 40%;
+    margin-left: 52px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 24px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.mid a:hover {
+    background-color: cadetblue;
+    font-size: 1.2em;
+}
+
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 9px;
+    text-decoration: none;
+}
+
+.right a {
+    width: 40%;
+    margin-left: 52px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 24px;
+    transform: rotate(-45deg);
+}
+
+.right a:hover {
+    color: cadetblue;
+    font-size: 1.3em;
+}
+
+h2 {
+    margin-left: 482px;
+    margin-top: 135px;
+    color: cadetblue;
+}
+
+p {
+    max-width: 73%;
+    margin-left: 206px;
+}
+
+img {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.one {
+    padding: 42px;
+    display: inline-block;
+    width: 25%;
+    overflow: hidden;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+
+.one:hover {
+    transform: scale(1.3);
+}
